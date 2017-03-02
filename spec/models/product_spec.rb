@@ -78,6 +78,7 @@ RSpec.describe Product, type: :model do
       FactoryGirl.create(:review, product: p, user: FactoryGirl.create(:user))
       FactoryGirl.create(:review, product: p, user: FactoryGirl.create(:user, email: "test@gm.com"))
       expect(p.num_reviews).to eq 2
+
     end
   end
 end
