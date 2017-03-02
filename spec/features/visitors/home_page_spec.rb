@@ -10,7 +10,7 @@ feature 'Home page' do
   #   Then I see "..."
   scenario 'visit the home page' do
     visit root_path
-    fail "Add a test to make sure we are on this page"
     # expect(page).to have_content #...
+    expect(page). to have_content "Hello! Come check all that hats we have in our store."
   end
 end
