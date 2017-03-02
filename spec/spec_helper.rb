@@ -19,6 +19,8 @@
 
 require 'simplecov'
 SimpleCov.start 'rails'
+require 'coveralls'
+Coveralls.wear!
 
 RSpec.configure do |config|
   # rspec-expectations config goes here. You can use an alternate
